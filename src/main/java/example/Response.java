@@ -27,7 +27,7 @@ public class Response<T> {
         this.error = error;
     }
 
-    public Object getBody() {
+    public T getBody() {
         return body;
     }
 
